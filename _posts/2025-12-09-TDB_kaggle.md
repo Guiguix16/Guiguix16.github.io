@@ -77,7 +77,7 @@ Ces observations guident la construction du pipeline ML (normalisation, encoding
 
 # Machine Learning – Model Training & Predictions
 
-![Dashboard Modeling](/assets/img/kaggle/kaggle_model.png)
+
 
 ## ⚙️ Pipeline ML développé
 
