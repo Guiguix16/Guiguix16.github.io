@@ -12,7 +12,7 @@ order: 6
 > **Dr Zhe Huang**, enseignant-chercheur en finance quantitative et économétrie, dont les travaux
 > portent notamment sur l’analyse des marchés financiers et la modélisation du risque.  
 >
-> > [Ouvrir la lettre de recommandation (PDF)](/assets/lettre_recommandation.pdf){:target="_blank"}  
+> > [Ouvrir la lettre de recommandation (PDF)](/assets/Lettre_de_recommandation-Guillaume_Pouponneau.pdf){:target="_blank"}  
 >  
 > **Projet associé :**  
 > [Projet de Backtest et optimisation d’une stratégie de trading par algorithme génétique]({% post_url 2025-12-09-trading %})
