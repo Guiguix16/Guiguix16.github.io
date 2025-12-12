@@ -45,10 +45,10 @@ Cette formation m’a permis de développer une approche rigoureuse des données
 ## Compétences techniques
 
 - **Langages** : Python, R, SQL, VBA, SAS  
-- **Data & ML** : data cleaning, feature engineering, modélisation, évaluation  
-- **BI & Reporting** : Power BI, MicroStrategy, QlikSense, Tableau  
-- **Outils** : Git, GitHub, Docker, Azure, VS Code, Excel avancé
-
+- **Frameworks** / Outils: Power BI, QlikSense, BO, Tableau, Microstrategy, FastAPI (bases), Flash (Bases)
+- **Outils de développement** : Git, Azure, Docker, Github, VS Code, Snowflake (bases), Access, Excel avancé
+- **Data** : Machine Learning, ETL, Data Cleaning, Feature Engineering, KPI Design, Reporting automatisé
+- **Libraries** : Pandas, Numpy, Scikit-learn, Matplotlib, Seaborn
 ---
 
 ## Certification
