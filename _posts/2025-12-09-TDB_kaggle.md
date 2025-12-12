@@ -1,30 +1,57 @@
 ---
 title: "Kaggle – Predicting Loan Payback"
-date: 2025-12-09 10:00:00 +0100
-categories: [machine-learning, kaggle]
-tags: [classification, risk-analysis, powerbi, python]
+date: 2025-12-10 10:00:00 +0100
+categories: [Projets personnels]
+tags: [Machine learning, Python, Power BI]
 image: /assets/accueil_tdb.png
 description: "Pipeline ML complet et tableau de bord interactif Power BI pour la prédiction de défaut de paiement dans le challenge Kaggle Predicting Loan Payback."
 ---
 
 # Kaggle – Predicting Loan Payback  
-*Playground Series – Season 5 Episode 11*
+*Playground Series*
 
-Ce projet vise à prédire la probabilité qu’un emprunteur ne rembourse pas son prêt, dans le cadre du challenge Kaggle **Predicting Loan Payback**.  
-Le travail combine :
+Ce projet personnel m’a permis de travailler un cas d’étude complet en data, en adoptant une démarche volontairement orientée machine learning en premier lieu, avant de restituer les résultats sous forme de tableau de bord Power BI.
 
-- un **pipeline de machine learning** en Python,   
-- un **rapport Power BI** comprenant une analyse du Challenge.
+J’ai d’abord abordé le problème sous l’angle de la prédiction du défaut de paiement, afin d’identifier les variables réellement discriminantes et comprendre les mécanismes de risque.
+Ce travail de modélisation m’a ensuite servi de socle analytique pour construire un tableau de bord Power BI cohérent, structuré et orienté lecture métier.
 
-L’objectif est de comprendre les comportements de risque, gérer les déséquilibres de classes et évaluer plusieurs modèles pour améliorer la qualité des prédictions.
+Cette approche m’a permis de renforcer mes compétences sur :
 
+- la construction d’un pipeline ML robuste en Python,
+
+- l’interprétation des résultats de modèles,
+
+- et surtout la restitution visuelle de résultats complexes dans Power BI.
+  
+### Positionnement 
+
+Ce projet a d’abord été abordé comme un challenge de machine learning Kaggle, avec pour objectif principal d’obtenir un modèle performant sur la prédiction du défaut de paiement.
+
+Une fois le modèle entraîné, évalué et le score obtenu sur la plateforme, j’ai choisi de revenir sur les données et les résultats afin de les analyser plus finement et de les restituer sous forme de tableau de bord Power BI.
+
+Le tableau de bord n’a donc pas servi à piloter la modélisation, mais à :
+
+- analyser a posteriori les comportements de risque,
+
+- mieux comprendre pourquoi le modèle performe,
+
+- structurer et rendre lisibles des résultats initialement techniques,
+
+- transformer un score Kaggle en lecture analytique exploitable.
+
+Cette démarche m’a permis de travailler à la fois :
+
+- la modélisation machine learning dans un cadre compétitif,
+
+- et la restitution de résultats complexes dans Power BI, en allant au-delà du simple score.
+  
 ---
 
 - **Données Kaggle** :  [Lien du Challenge](https://www.kaggle.com/competitions/playground-series-s5e11)
   
 ---
 
-# 🟦 Overview – Dataset Summary & Global Metrics
+#  Overview – Dataset Summary & Global Metrics
 
 ![Dashboard Overview](/assets/Overview_tdb.png)
 
@@ -57,14 +84,14 @@ Avant modélisation, plusieurs dimensions critiques ont été analysées :
 - **Loan Amount Skewness**  
 - **Class imbalance (20 % defaults)**  
 
-## 🔎 Key Challenges Identified
+## Key Challenges Identified
 
 - Déséquilibre massif des classes  
 - Distributions très asymétriques (income, DTI…)  
 - Relations **non linéaires**  
 - Forte hétérogénéité entre profils emprunteurs  
 
-## 📘 Behavioral Insights
+## Behavioral Insights
 
 - Sauts de risque brusques dès DTI > 40 %  
 - La majorité des emprunteurs sont “low-risk”  
@@ -79,7 +106,7 @@ Ces observations guident la construction du pipeline ML (normalisation, encoding
 
 
 
-## ⚙️ Pipeline ML développé
+## Pipeline ML développé
 
 ### 1. **Préprocessing**
 - Encodage des variables catégorielles  
@@ -90,7 +117,7 @@ Ces observations guident la construction du pipeline ML (normalisation, encoding
 ### 2. **Modèles testés**
 Selon la nature non linéaire des données :
 
-- **LightGBM**  
+- LightGBM  
 - Random Forest  
 - Logistic Regression (baseline)
 
@@ -101,14 +128,14 @@ Les principales variables prédictives observées :
 2. **Credit Score**  
 3. **Interest Rate**  
 4. **Loan Amount**  
-5. Annual Income  
+5. **Annual Income**
 
 ### 4. **Objectif d’évaluation**
 - Accuracy  
 - F1-score (important pour la classe minoritaire)  
 - AUC-ROC  
 
-Selon tes résultats, LightGBM a été retenu comme modèle final (meilleur compromis entre performance et robustesse face au dataset déséquilibré).
+Suite aux résultats, LightGBM a été retenu comme modèle final (meilleur compromis entre performance et robustesse face au dataset déséquilibré).
 
 ---
 
@@ -120,14 +147,10 @@ Selon tes résultats, LightGBM a été retenu comme modèle final (meilleur comp
 - Le choix du seuil décisionnel peut drastiquement changer les performances.  
 - Le default risk n'est pas uniforme → segmentation naturelle par profil.
 
----
-
-
-
-# Conclusion générale
-
-Ce projet combine une **analyse exploratoire**, une **étude de risque** et une **modélisation machine learning** centrée sur la prédiction de défaut.  
-Les dashboards Power BI fournissent une vision synthétique du dataset, tandis que le pipeline Python permet d’expérimenter des modèles performants et adaptés aux données réelles.
+Avec le meilleur modèle, j'ai obtenu un **private score de 0,92** à ce challenge, ce qui m'a placé dans le haut du classement.
 
 ---
+
+
+
 

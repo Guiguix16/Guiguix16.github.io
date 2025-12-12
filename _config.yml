@@ -16,10 +16,10 @@ timezone: Europe/Paris
 
 title: Guillaume Pouponneau # the main title
 
-tagline: Projets # it will display as the subtitle
+tagline: Data · Finance · Machine Learning # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Portfolio de projets en data analysis, finance et machine learning, avec une approche orientée risque, performance et restitution métier.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -29,7 +29,7 @@ github:
   username: Guiguix16 # change to your GitHub username
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -38,7 +38,7 @@ social:
   email: guillaume.pouponneau@hotmail.fr # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
+    - https://twitter.com/ # change to your Twitter homepage
     - https://github.com/Guiguix16 # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/Avatar.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
