@@ -2,8 +2,10 @@
 layout: post
 title: "Challenge Kaggle – Churn"
 date: 2025-12-29
-categories: [data, kaggle]
-tags: [kaggle, machine-learning, python]
+categories: [Projets personnels]
+image: /assets/churn.png
+tags: [Machine learning, python]
+description: "Challenge Kaggle sur la prédiction de churn client"
 ---
 
 ## Description
@@ -26,7 +28,8 @@ Une étape importante du travail a consisté à :
 - comprendre le rôle de chaque variable
 - identifier les données incomplètes ou peu exploitables
 - vérifier la cohérence globale du jeu de données
-
+- 
+- **Données Kaggle** :  [Lien du Challenge](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
 ---
 
