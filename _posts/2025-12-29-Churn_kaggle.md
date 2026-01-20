@@ -3,7 +3,7 @@ layout: post
 title: "Challenge Kaggle – Churn"
 date: 2025-12-29
 categories: [Projets personnels]
-image: /assets/churn.png
+image: /assets/churn.jpeg
 tags: [Machine learning, python]
 description: "Challenge Kaggle sur la prédiction de churn client"
 ---
